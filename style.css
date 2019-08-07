@@ -1,0 +1,20 @@
+label {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+p {
+    font-size: 20px;
+}
+form {
+    width: 40%;
+}
+input {
+    float: right;
+}
+.r {
+    float: right;
+}
+.sub{
+    float: none;
+}

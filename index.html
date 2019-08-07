@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Aliens Abducted Me - Report an Abduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Aliens Abducted Me - Report an Abduction</h1>
+<a href="tmp/rss.php">
+    <img src="letöltés.png" height="50" width="50"/>
+</a>
+<form action="tmp/others.php" method="post">
+    <br>
+    <button name="submit"><strong>Other's stories</strong></button>
+</form>
+<p>Share your story of alien abduction:</p>
+<form action="tmp/report.php" method="post">
+    <label>First name: </label>
+    <input type="text" name="fname" ><br>
+    <label>Last name: </label>
+    <input type="text" name="lname" ><br>
+    <label>What is your e-mail address: </label>
+    <input type="email" name="email" ><br>
+    <label>When did it happen? </label>
+    <input type="text" name="happen" ><br>
+    <label>How long were you gone? </label>
+    <input type="text" name="gone" ><br>
+    <label>How many did you see? </label>
+    <input type="number" name="number" ><br>
+    <label>Describe them: </label>
+    <input type="text" name="describe" ><br>
+    <label>What did they do to you? </label>
+    <input type="text" name="do" ><br>
+    <label>Have you seen my dog Fang? </label>
+    <div class="r">
+        <input type="radio" name="fang" value="no">NO</input><br>
+    </div>
+    <div class="r">
+        <input type="radio" name="fang" value="yes">YES</input>
+    </div>
+    <br>
+    <img src="fang.jpg" height="350" width="200"/><br>
+    <label>Anything else you want to add? </label>
+    <textarea name="add" rows="1" cols="30"></textarea><br>
+    <input class="sub" type="submit" name="submit" value="Report Abduction"/>
+</form>
+</body>
+</html>
